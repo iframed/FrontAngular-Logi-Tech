@@ -1,0 +1,38 @@
+<div class="contact-container">
+    <div class="contact-header">
+      <h2>CONTACT US</h2>
+    </div>
+    <div class="contact-content">
+      <!-- Formulaire de gauche -->
+      <div class="contact-form">
+        <h3>ONLINE INQUIRY</h3>
+        <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
+          <input type="text" name="name" placeholder="Name" required ngModel />
+          <input type="email" name="email" placeholder="Email" required ngModel />
+          <input type="tel" name="phone" placeholder="Phone" required ngModel />
+          <select name="interest" ngModel>
+            <option value="" disabled selected>Select An Interest</option>
+            <option value="General Inquiry">General Inquiry</option>
+            <option value="Customer Support">Customer Support</option>
+            <option value="Sales Inquiry">Sales Inquiry</option>
+          </select>
+          <textarea name="message" placeholder="Message" rows="4" ngModel></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+  
+      <!-- Détails de contact à droite -->
+      <div class="contact-details">
+        <h3>CONTACT DETAILS</h3>
+        <p><a href="mailto:michelle&#64;signaturerealtynj.com">michelle&#64;signaturerealtynj.com</a></p>
+
+        <p>(908) 686-1200</p>
+        <div class="office-details">
+          <p><strong>Westfield</strong><br />233 North Avenue E.<br />Westfield, NJ 07090</p>
+          <p><strong>Summit</strong><br />357 Springfield Ave.<br />Short Hills, NJ 07901</p>
+          <p><strong>Short Hills Office</strong><br />549 Millburn Ave.<br />Short Hills, NJ 07078</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,89 @@
+/* Container principal */
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* En-tête */
+  .contact-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #333;
+  }
+  
+  /* Contenu principal */
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Formulaire */
+  .contact-form,
+  .contact-details {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .contact-form h3,
+  .contact-details h3 {
+    margin-bottom: 15px;
+    color: #666;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  
+  form input,
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  
+  /* Détails de contact */
+  .contact-details a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .office-details p {
+    margin: 15px 0;
+    color: #555;
+    font-size: 0.9rem;
+  }
+  
+  .office-details strong {
+    font-size: 1rem;
+    color: #333;
+  }
+  
